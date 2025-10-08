@@ -18,11 +18,16 @@ export const Enrollment = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    const whatsappNumber = "5581979054827";
+    const message = `Olá! Gostaria de me inscrever no Curso de Trancista Iniciante.%0A%0ANome: ${encodeURIComponent(formData.name)}%0AEmail: ${encodeURIComponent(formData.email)}%0ATelefone: ${encodeURIComponent(formData.phone)}${formData.message ? `%0AMensagem: ${encodeURIComponent(formData.message)}` : ''}`;
+    
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
+    
     toast({
-      title: "Inscrição recebida!",
-      description: "Entraremos em contato em breve com mais informações.",
+      title: "Redirecionando para WhatsApp!",
+      description: "Você será direcionado para continuar a inscrição pelo WhatsApp.",
     });
-    setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -173,7 +178,7 @@ export const Enrollment = () => {
                     size="lg"
                     className="w-full bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white font-semibold py-6 text-lg shadow-glow transition-all hover:scale-105"
                   >
-                    Solicitar Informações
+                    Inscrever via WhatsApp
                   </Button>
 
                   <p className="text-sm text-muted-foreground text-center">
