@@ -21,7 +21,7 @@ export const Footer = () => {
 
           <div className="pt-6 border-t border-white/20">
             <p className="text-sm text-white/70">
-              © {new Date().getFullYear()} Curso de Trancista. Todos os direitos reservados.
+              © {new Date().getFullYear()} Curso da Franciely. Todos os direitos reservados.
             </p>
           </div>
         </div>

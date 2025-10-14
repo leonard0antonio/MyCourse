@@ -61,7 +61,7 @@ export const Hero = () => {
             {[
               { number: "6", label: "Módulos Práticos" },
               { number: "100%", label: "Presencial" },
-              { number: "∞", label: "Acesso Vitalício" }
+              { number: "★", label: "Conteúdo Exclusivo" }
             ].map((stat, index) => (
               <div 
                 key={index}

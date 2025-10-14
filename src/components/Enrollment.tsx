@@ -65,7 +65,7 @@ export const Enrollment = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Duração</h3>
-                      <p className="text-muted-foreground">6 semanas de conteúdo intensivo</p>
+                      <p className="text-muted-foreground">Indeterminado</p>
                     </div>
                   </div>
 
@@ -93,12 +93,12 @@ export const Enrollment = () => {
                     <h3 className="font-semibold text-foreground mb-4">O que está incluso:</h3>
                     <ul className="space-y-3">
                       {[
-                        "6 módulos completos em vídeo",
-                        "Material de apoio em PDF",
+                        "6 módulos completos presenciais",
+                        "Material de apoio em apostila impressa",
                         "Certificado de conclusão",
                         "Suporte direto com instrutora",
-                        "Acesso vitalício ao conteúdo",
-                        "Atualizações gratuitas"
+                        "Conteúdo exclusivo",
+                        "Acompanhamento personalizado"
                       ].map((item, index) => (
                         <li key={index} className="flex items-center gap-3">
                           <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
