@@ -67,4 +67,4 @@ Além de servir como vitrine técnica, o projeto demonstra domínio em React, Ty
 
 ---
 
-🚀 **Deploy:** *(adicione o link da Vercel se já estiver publicado)*
+🚀 **Deploy:** *https://my-course-omega.vercel.app/*
