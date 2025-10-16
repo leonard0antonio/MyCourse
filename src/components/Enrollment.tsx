@@ -19,7 +19,7 @@ export const Enrollment = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const whatsappNumber = "5581979054827";
+    const whatsappNumber = "0000000000"; // Replace with your WhatsApp number
     const message = `Olá! Gostaria de me inscrever no Curso de Trancista Iniciante.%0A%0ANome: ${encodeURIComponent(formData.name)}%0AEmail: ${encodeURIComponent(formData.email)}%0ATelefone: ${encodeURIComponent(formData.phone)}${formData.message ? `%0AMensagem: ${encodeURIComponent(formData.message)}` : ''}`;
     
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
