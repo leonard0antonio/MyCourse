@@ -51,7 +51,7 @@ Essas tecnologias trabalham em conjunto para garantir **performance**, **manuten
 
 ## 📸 Demonstração  
 
-![Demo da aplicação](demo01.gif)
+![Demo da aplicação](demo.gif)
 
 ---
 
