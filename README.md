@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# 📚 MyCourse
 
-## Project info
+## 🧩 Introdução
 
-**URL**: https://lovable.dev/projects/e85e34f6-fdbb-4e2f-b533-f1e48d551da7
+**Nome do projeto:** MyCourse  
 
-## How can I edit this code?
+**Contexto / evento de desenvolvimento:**  
+MyCourse foi desenvolvido como uma **plataforma web educacional**, projetada para exibir informações de cursos e módulos de aprendizado de maneira clara e interativa.  
 
-There are several ways of editing your application.
+**Objetivo principal / desafio:**  
+O principal objetivo do projeto é oferecer uma **interface moderna e responsiva** para apresentar cursos online, permitindo que usuários explorem conteúdos de maneira intuitiva e agradável.  
 
-**Use Lovable**
+**Detalhes / motivação:**  
+- Criado como **projeto de portfólio**, com foco em demonstrar habilidades de front-end.  
+- Exemplo funcional de **plataforma educacional web**.  
+- Utiliza ferramentas modernas como **React, Vite e TailwindCSS** para otimizar a performance e o design.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e85e34f6-fdbb-4e2f-b533-f1e48d551da7) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ⚙️ Principais Funcionalidades do Projeto
 
-**Use your preferred IDE**
+O **MyCourse** é uma aplicação web focada em experiência do usuário e organização de conteúdo educacional.  
+Com base na estrutura de código (`src/`, `components/`, `public/`), o sistema possui as seguintes características:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Página inicial interativa:** exibe informações sobre cursos e seções introdutórias.  
+- **Componentização:** estrutura modular com componentes reutilizáveis para melhor manutenção.  
+- **Design responsivo:** adaptável a diferentes tamanhos de tela (desktop, tablet e mobile).  
+- **Estilo moderno:** uso combinado de **TailwindCSS** e **Styled Components** para personalização visual.  
+- **Desempenho otimizado:** configurado com **Vite**, garantindo builds rápidos e desenvolvimento fluido.  
+- **Organização de pastas e tipagem segura:** implementado com **TypeScript**, garantindo segurança e clareza no código.  
+- **Deploy contínuo:** pronto para hospedagem em plataformas como **Vercel**.  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+A interface é intuitiva — o usuário acessa o site, navega pelas seções informativas e interage com o conteúdo visual dos cursos.  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🧠 Tecnologias Utilizadas
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+| Tecnologia | Função no projeto |
+|-------------|------------------|
+| **React.js / Vite** | Construção do front-end e interface interativa |
+| **TypeScript** | Tipagem estática e segurança no desenvolvimento |
+| **TailwindCSS / Styled Components** | Estilização e design responsivo |
+| **PostCSS** | Processamento e otimização do CSS |
+| **ESLint / Configuração TS** | Garantia de boas práticas e padronização de código |
+| **Git / GitHub** | Controle de versão e colaboração |
 
-# Step 3: Install the necessary dependencies.
-npm i
+Essas tecnologias trabalham em conjunto para garantir **performance**, **manutenibilidade** e **boa experiência do usuário**.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+- **Header fixo** com menu de navegação e logotipo.  
+- **Seção “Hero”** com título principal e botão de ação.  
+- **Cards de cursos** exibindo nome, descrição e detalhes do conteúdo.  
+- **Layout limpo**, com tipografia legível e cores suaves.  
+- **Rodapé (footer)** com links adicionais ou informações de contato.  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+O design é minimalista, priorizando clareza e usabilidade, típico de sites educacionais modernos.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+## 🏁 Conclusão
 
-This project is built with:
+O **MyCourse** representa um passo importante no aprendizado de desenvolvimento web moderno.  
+Além de servir como vitrine técnica, o projeto demonstra domínio em React, TypeScript e Tailwind — tecnologias amplamente utilizadas no mercado.  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e85e34f6-fdbb-4e2f-b533-f1e48d551da7) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🚀 **Deploy:** *https://my-course-omega.vercel.app/*
