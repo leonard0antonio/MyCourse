@@ -36,7 +36,7 @@ A interface é intuitiva — o usuário acessa o site, navega pelas seções inf
 
 ## 📷 Desmontração
 
-![Demo da aplicação](demo01.gif)
+![Demo da aplicação](demo0.gif)
 
 
 ## 🧠 Tecnologias Utilizadas
