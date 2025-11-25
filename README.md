@@ -11,7 +11,7 @@ MyCourse foi desenvolvido como uma **plataforma web educacional**, projetada par
 O principal objetivo do projeto é oferecer uma **interface moderna e responsiva** para apresentar cursos online, permitindo que usuários explorem conteúdos de maneira intuitiva e agradável.  
 
 **Detalhes / motivação:**  
-- Criado como **projeto de portfólio**, com foco em demonstrar habilidades de front-end.  
+- Criado como **projeto de portfólio**
 - Exemplo funcional de **plataforma educacional web**.  
 - Utiliza ferramentas modernas como **React, Vite e TailwindCSS** para otimizar a performance e o design.  
 
@@ -33,6 +33,11 @@ Com base na estrutura de código (`src/`, `components/`, `public/`), o sistema p
 A interface é intuitiva — o usuário acessa o site, navega pelas seções informativas e interage com o conteúdo visual dos cursos.  
 
 ---
+
+## 📷 Desmontração
+
+![Demo da aplicação](demo01.gif)
+
 
 ## 🧠 Tecnologias Utilizadas
 
@@ -56,14 +61,6 @@ Essas tecnologias trabalham em conjunto para garantir **performance**, **manuten
 - **Rodapé (footer)** com links adicionais ou informações de contato.  
 
 O design é minimalista, priorizando clareza e usabilidade, típico de sites educacionais modernos.
-
----
-
-
-## 🏁 Conclusão
-
-O **MyCourse** representa um passo importante no aprendizado de desenvolvimento web moderno.  
-Além de servir como vitrine técnica, o projeto demonstra domínio em React, TypeScript e Tailwind — tecnologias amplamente utilizadas no mercado.  
 
 ---
 
