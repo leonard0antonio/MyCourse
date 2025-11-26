@@ -32,11 +32,14 @@ Com base na estrutura de código (`src/`, `components/`, `public/`), o sistema p
 
 A interface é intuitiva — o usuário acessa o site, navega pelas seções informativas e interage com o conteúdo visual dos cursos.  
 
----
+-----
 
-## 📷 Desmontração
+## 📷 Demonstração
+
 
 ![Demo da aplicação](demo.gif)
+
+-----
 
 
 ## 🧠 Tecnologias Utilizadas
